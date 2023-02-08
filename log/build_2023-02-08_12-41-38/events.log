@@ -1,0 +1,239 @@
+[0.000000] (-) TimerEvent: {}
+[0.000284] (knapp_amr) JobQueued: {'identifier': 'knapp_amr', 'dependencies': OrderedDict()}
+[0.000354] (knapp_amr) JobStarted: {'identifier': 'knapp_amr'}
+[0.009927] (knapp_amr) JobProgress: {'identifier': 'knapp_amr', 'progress': 'cmake'}
+[0.010827] (knapp_amr) JobProgress: {'identifier': 'knapp_amr', 'progress': 'build'}
+[0.011742] (knapp_amr) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pietro/knapp_ros/build/knapp_amr', '--', '-j4', '-l4'], 'cwd': '/home/pietro/knapp_ros/build/knapp_amr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pietro'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pietro'), ('OLDPWD', '/home/pietro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1834'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pietro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pietro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Pietro-linux:@/tmp/.ICE-unix/1662,unix/Pietro-linux:/tmp/.ICE-unix/1662'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be59f276_2dce_4f09_8197_49d3b42102d8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G1J5Z1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pietro/knapp_ros/build/knapp_amr'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.039516] (knapp_amr) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.098667] (-) TimerEvent: {}
+[0.199034] (-) TimerEvent: {}
+[0.204000] (knapp_amr) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.233099] (knapp_amr) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.236188] (knapp_amr) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.243635] (knapp_amr) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.256481] (knapp_amr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.273712] (knapp_amr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.299166] (-) TimerEvent: {}
+[0.399487] (-) TimerEvent: {}
+[0.401905] (knapp_amr) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.457254] (knapp_amr) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.458755] (knapp_amr) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.499613] (-) TimerEvent: {}
+[0.590950] (knapp_amr) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.599729] (-) TimerEvent: {}
+[0.700016] (-) TimerEvent: {}
+[0.744023] (knapp_amr) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.800187] (-) TimerEvent: {}
+[0.900526] (-) TimerEvent: {}
+[1.000791] (-) TimerEvent: {}
+[1.015878] (knapp_amr) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.100909] (-) TimerEvent: {}
+[1.201139] (-) TimerEvent: {}
+[1.301422] (-) TimerEvent: {}
+[1.345069] (knapp_amr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.401554] (-) TimerEvent: {}
+[1.472665] (knapp_amr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.496728] (knapp_amr) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.501624] (-) TimerEvent: {}
+[1.520226] (knapp_amr) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.520407] (knapp_amr) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.520480] (knapp_amr) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[1.534860] (knapp_amr) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.535037] (knapp_amr) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.535123] (knapp_amr) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[1.535338] (knapp_amr) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.535425] (knapp_amr) StderrLine: {'line': b'  CMakeLists.txt:30 (rosidl_target_interfaces)\n'}
+[1.535501] (knapp_amr) StderrLine: {'line': b'\n'}
+[1.535565] (knapp_amr) StderrLine: {'line': b'\x1b[0m\n'}
+[1.535628] (knapp_amr) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[1.535693] (knapp_amr) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[1.535756] (knapp_amr) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[1.535819] (knapp_amr) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[1.535881] (knapp_amr) StderrLine: {'line': b'  CMakeLists.txt:32 (rosidl_target_interfaces)\n'}
+[1.535944] (knapp_amr) StderrLine: {'line': b'\n'}
+[1.536005] (knapp_amr) StderrLine: {'line': b'\x1b[0m\n'}
+[1.536067] (knapp_amr) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.545820] (knapp_amr) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.546368] (knapp_amr) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.546473] (knapp_amr) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.547034] (knapp_amr) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.548236] (knapp_amr) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.548341] (knapp_amr) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.548616] (knapp_amr) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.550380] (knapp_amr) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.596988] (knapp_amr) StdoutLine: {'line': b'-- Generating done\n'}
+[1.601614] (knapp_amr) StdoutLine: {'line': b'-- Build files have been written to: /home/pietro/knapp_ros/build/knapp_amr\n'}
+[1.601793] (-) TimerEvent: {}
+[1.631895] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target posePub\x1b[0m\n'}
+[1.639169] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_generator_c\x1b[0m\n'}
+[1.651557] (knapp_amr) StdoutLine: {'line': b'[  2%] Built target knapp_amr__cpp\n'}
+[1.660674] (knapp_amr) StdoutLine: {'line': b'[ 10%] Built target knapp_amr__rosidl_generator_c\n'}
+[1.665695] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.671229] (knapp_amr) StdoutLine: {'line': b'[ 16%] Built target posePub\n'}
+[1.676048] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.685447] (knapp_amr) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_copy_knapp_amr\n'}
+[1.686128] (knapp_amr) StdoutLine: {'line': b'[ 24%] Built target knapp_amr__rosidl_typesupport_cpp\n'}
+[1.696849] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_c\x1b[0m\n'}
+[1.700885] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.701470] (knapp_amr) StdoutLine: {'line': b'[ 32%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp\n'}
+[1.701864] (-) TimerEvent: {}
+[1.713642] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.714765] (knapp_amr) StdoutLine: {'line': b'[ 40%] Built target knapp_amr__rosidl_typesupport_introspection_c\n'}
+[1.725694] (knapp_amr) StdoutLine: {'line': b'[ 48%] Built target knapp_amr__rosidl_typesupport_c\n'}
+[1.732119] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.742948] (knapp_amr) StdoutLine: {'line': b'[ 56%] Built target knapp_amr__rosidl_typesupport_introspection_cpp\n'}
+[1.756889] (knapp_amr) StdoutLine: {'line': b'[ 64%] Built target knapp_amr__rosidl_typesupport_fastrtps_c\n'}
+[1.782665] (knapp_amr) StdoutLine: {'line': b'[ 64%] Built target knapp_amr\n'}
+[1.804409] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target orderPub\x1b[0m\n'}
+[1.804616] (-) TimerEvent: {}
+[1.804720] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target optimizer\x1b[0m\n'}
+[1.810060] (knapp_amr) StdoutLine: {'line': b'[ 67%] Built target knapp_amr__py\n'}
+[1.816058] (knapp_amr) StdoutLine: {'line': b'[ 72%] Built target optimizer\n'}
+[1.823770] (knapp_amr) StdoutLine: {'line': b'[ 78%] Built target orderPub\n'}
+[1.823969] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_generator_py\x1b[0m\n'}
+[1.840104] (knapp_amr) StdoutLine: {'line': b'[ 83%] Built target knapp_amr__rosidl_generator_py\n'}
+[1.851686] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.851874] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.864059] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.868967] (knapp_amr) StdoutLine: {'line': b'[ 89%] Built target knapp_amr__rosidl_typesupport_c__pyext\n'}
+[1.875745] (knapp_amr) StdoutLine: {'line': b'[ 94%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.880169] (knapp_amr) StdoutLine: {'line': b'[100%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext\n'}
+[1.904753] (-) TimerEvent: {}
+[2.002202] (knapp_amr) StdoutLine: {'line': b'running egg_info\n'}
+[2.002962] (knapp_amr) StdoutLine: {'line': b'writing knapp_amr.egg-info/PKG-INFO\n'}
+[2.003217] (knapp_amr) StdoutLine: {'line': b'writing dependency_links to knapp_amr.egg-info/dependency_links.txt\n'}
+[2.003404] (knapp_amr) StdoutLine: {'line': b'writing top-level names to knapp_amr.egg-info/top_level.txt\n'}
+[2.004827] (-) TimerEvent: {}
+[2.005836] (knapp_amr) StdoutLine: {'line': b"reading manifest file 'knapp_amr.egg-info/SOURCES.txt'\n"}
+[2.006601] (knapp_amr) StdoutLine: {'line': b"writing manifest file 'knapp_amr.egg-info/SOURCES.txt'\n"}
+[2.037403] (knapp_amr) StdoutLine: {'line': b'[100%] Built target ament_cmake_python_build_knapp_amr_egg\n'}
+[2.050071] (knapp_amr) CommandEnded: {'returncode': 0}
+[2.106106] (-) TimerEvent: {}
+[2.191893] (knapp_amr) JobProgress: {'identifier': 'knapp_amr', 'progress': 'install'}
+[2.203270] (knapp_amr) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/pietro/knapp_ros/build/knapp_amr'], 'cwd': '/home/pietro/knapp_ros/build/knapp_amr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pietro'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pietro'), ('OLDPWD', '/home/pietro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1834'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pietro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pietro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Pietro-linux:@/tmp/.ICE-unix/1662,unix/Pietro-linux:/tmp/.ICE-unix/1662'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be59f276_2dce_4f09_8197_49d3b42102d8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G1J5Z1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pietro/knapp_ros/build/knapp_amr'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[2.208621] (-) TimerEvent: {}
+[2.216928] (knapp_amr) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[2.217138] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/ament_index/resource_index/rosidl_interfaces/knapp_amr\n'}
+[2.217341] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr\n'}
+[2.217429] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg\n'}
+[2.217498] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/order.h\n'}
+[2.217564] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/rosidl_generator_c__visibility_control.h\n'}
+[2.217628] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail\n'}
+[2.217700] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__functions.c\n'}
+[2.217763] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__type_support.h\n'}
+[2.217862] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__functions.h\n'}
+[2.217930] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__struct.h\n'}
+[2.217992] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/library_path.sh\n'}
+[2.218063] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/library_path.dsv\n'}
+[2.218186] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_generator_c.so\n'}
+[2.218305] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr\n'}
+[2.218463] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg\n'}
+[2.218573] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[2.218647] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail\n'}
+[2.218714] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__rosidl_typesupport_fastrtps_c.h\n'}
+[2.218863] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_fastrtps_c.so\n'}
+[2.219000] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr\n'}
+[2.219084] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg\n'}
+[2.219223] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/order.hpp\n'}
+[2.219324] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail\n'}
+[2.219395] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__builder.hpp\n'}
+[2.219462] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__struct.hpp\n'}
+[2.219530] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__traits.hpp\n'}
+[2.219594] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr\n'}
+[2.219665] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg\n'}
+[2.219730] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[2.219798] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail\n'}
+[2.219901] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/dds_fastrtps\n'}
+[2.219979] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[2.220054] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_fastrtps_cpp.so\n'}
+[2.220118] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr\n'}
+[2.220213] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg\n'}
+[2.220276] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[2.220338] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail\n'}
+[2.220400] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__type_support.c\n'}
+[2.220462] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__rosidl_typesupport_introspection_c.h\n'}
+[2.220524] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_introspection_c.so\n'}
+[2.220800] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_c.so\n'}
+[2.220897] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr\n'}
+[2.220966] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg\n'}
+[2.221253] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail\n'}
+[2.221337] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__type_support.cpp\n'}
+[2.221410] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__rosidl_typesupport_introspection_cpp.hpp\n'}
+[2.221481] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_introspection_cpp.so\n'}
+[2.221635] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_cpp.so\n'}
+[2.221873] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/pythonpath.sh\n'}
+[2.221977] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/pythonpath.dsv\n'}
+[2.222266] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr-0.0.0-py3.10.egg-info\n'}
+[2.222401] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[2.222553] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[2.222659] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[2.222758] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[2.222897] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr\n'}
+[2.223013] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/_knapp_amr_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[2.223096] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/libknapp_amr__rosidl_generator_py.so\n'}
+[2.223163] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/_knapp_amr_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[2.223273] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/_knapp_amr_s.ep.rosidl_typesupport_c.c\n'}
+[2.223342] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.223416] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg\n'}
+[2.227747] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg/_order_s.c\n'}
+[2.228042] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg/_order.py\n'}
+[2.228151] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg/__init__.py\n'}
+[2.228222] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/__init__.py\n'}
+[2.228290] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.228417] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.261846] (knapp_amr) StdoutLine: {'line': b"Listing '/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr'...\n"}
+[2.262007] (knapp_amr) StdoutLine: {'line': b"Compiling '/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/__init__.py'...\n"}
+[2.262104] (knapp_amr) StdoutLine: {'line': b"Listing '/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg'...\n"}
+[2.269814] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.269979] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.270069] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[2.270142] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_generator_py.so\n'}
+[2.270208] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/msg/Order.idl\n'}
+[2.270276] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/msg/Order.msg\n'}
+[2.270341] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/knapp_amr/optimizer\n'}
+[2.270981] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/knapp_amr/posePub\n'}
+[2.271728] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/lib/knapp_amr/orderPub\n'}
+[2.272245] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/ament_index/resource_index/package_run_dependencies/knapp_amr\n'}
+[2.272475] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/ament_index/resource_index/parent_prefix_path/knapp_amr\n'}
+[2.272679] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/ament_prefix_path.sh\n'}
+[2.272873] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/ament_prefix_path.dsv\n'}
+[2.273247] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/path.sh\n'}
+[2.273464] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/path.dsv\n'}
+[2.273807] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/local_setup.bash\n'}
+[2.274008] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/local_setup.sh\n'}
+[2.274216] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/local_setup.zsh\n'}
+[2.274410] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/local_setup.dsv\n'}
+[2.274780] (knapp_amr) StdoutLine: {'line': b'-- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/package.dsv\n'}
+[2.275159] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/ament_index/resource_index/packages/knapp_amr\n'}
+[2.275489] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_generator_cExport.cmake\n'}
+[2.275789] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_generator_cExport-noconfig.cmake\n'}
+[2.276077] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[2.276300] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[2.276654] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_generator_cppExport.cmake\n'}
+[2.276945] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[2.277157] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[2.277489] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_introspection_cExport.cmake\n'}
+[2.277704] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[2.277974] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_cExport.cmake\n'}
+[2.278203] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[2.278470] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[2.278672] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[2.278946] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_cppExport.cmake\n'}
+[2.279148] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[2.279404] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_generator_pyExport.cmake\n'}
+[2.279604] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_generator_pyExport-noconfig.cmake\n'}
+[2.279800] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/rosidl_cmake-extras.cmake\n'}
+[2.280000] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[2.280199] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[2.280398] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[2.280588] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[2.280777] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[2.280970] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[2.281166] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amrConfig.cmake\n'}
+[2.281323] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amrConfig-version.cmake\n'}
+[2.281509] (knapp_amr) StdoutLine: {'line': b'-- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/package.xml\n'}
+[2.293001] (knapp_amr) CommandEnded: {'returncode': 0}
+[2.309528] (-) TimerEvent: {}
+[2.409780] (-) TimerEvent: {}
+[2.430486] (knapp_amr) JobEnded: {'identifier': 'knapp_amr', 'rc': 0}
+[2.435817] (-) EventReactorShutdown: {}

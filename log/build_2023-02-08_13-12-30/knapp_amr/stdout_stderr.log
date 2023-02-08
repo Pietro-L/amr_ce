@@ -1,0 +1,33 @@
+[  0%] Built target ament_cmake_python_copy_knapp_amr
+[  2%] Built target knapp_amr__cpp
+[  8%] Built target posePub
+[ 16%] Built target knapp_amr__rosidl_generator_c
+[ 24%] Built target knapp_amr__rosidl_typesupport_introspection_cpp
+[ 32%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp
+[ 40%] Built target knapp_amr__rosidl_typesupport_cpp
+[ 48%] Built target knapp_amr__rosidl_typesupport_fastrtps_c
+[ 56%] Built target knapp_amr__rosidl_typesupport_introspection_c
+[35m[1mConsolidate compiler generated dependencies of target orderPub[0m
+[ 64%] Built target knapp_amr__rosidl_typesupport_c
+[ 70%] Built target optimizer
+[ 70%] Built target knapp_amr
+[ 72%] [32mBuilding CXX object CMakeFiles/orderPub.dir/src/orderPub.cpp.o[0m
+[ 75%] Built target knapp_amr__py
+[ 81%] Built target knapp_amr__rosidl_generator_py
+[ 86%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target knapp_amr__rosidl_typesupport_c__pyext
+running egg_info
+writing knapp_amr.egg-info/PKG-INFO
+writing dependency_links to knapp_amr.egg-info/dependency_links.txt
+writing top-level names to knapp_amr.egg-info/top_level.txt
+reading manifest file 'knapp_amr.egg-info/SOURCES.txt'
+writing manifest file 'knapp_amr.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_knapp_amr_egg
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/orderPub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/orderPub.cpp:59:33:[m[K [01;31m[Kerror: [m[Kcast from ‘[01m[Kchar*[m[K’ to ‘[01m[Kint[m[K’ loses precision [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   59 |         (argv[1]!=NULL)?orderid=[01;31m[K(int)argv[1][m[K:orderid=1000001;
+      |                                 [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/orderPub.dir/build.make:76: CMakeFiles/orderPub.dir/src/orderPub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/orderPub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

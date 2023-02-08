@@ -1,0 +1,7 @@
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/orderPub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/orderPub.cpp:59:33:[m[K [01;31m[Kerror: [m[Kcast from ‘[01m[Kchar*[m[K’ to ‘[01m[Kint[m[K’ loses precision [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+   59 |         (argv[1]!=NULL)?orderid=[01;31m[K(int)argv[1][m[K:orderid=1000001;
+      |                                 [01;31m[K^~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/orderPub.dir/build.make:76: CMakeFiles/orderPub.dir/src/orderPub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/orderPub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

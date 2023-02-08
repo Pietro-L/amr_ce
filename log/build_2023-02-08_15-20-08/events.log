@@ -1,0 +1,183 @@
+[0.000000] (-) TimerEvent: {}
+[0.000735] (knapp_amr) JobQueued: {'identifier': 'knapp_amr', 'dependencies': OrderedDict()}
+[0.000796] (knapp_amr) JobStarted: {'identifier': 'knapp_amr'}
+[0.010480] (knapp_amr) JobProgress: {'identifier': 'knapp_amr', 'progress': 'cmake'}
+[0.011415] (knapp_amr) JobProgress: {'identifier': 'knapp_amr', 'progress': 'build'}
+[0.012235] (knapp_amr) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pietro/knapp_ros/build/knapp_amr', '--', '-j4', '-l4'], 'cwd': '/home/pietro/knapp_ros/build/knapp_amr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pietro'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pietro'), ('OLDPWD', '/home/pietro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1834'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pietro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pietro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Pietro-linux:@/tmp/.ICE-unix/1662,unix/Pietro-linux:/tmp/.ICE-unix/1662'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be59f276_2dce_4f09_8197_49d3b42102d8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G1J5Z1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pietro/knapp_ros/build/knapp_amr'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.076180] (knapp_amr) StdoutLine: {'line': b'[  8%] Built target knapp_amr__rosidl_generator_c\n'}
+[0.093286] (knapp_amr) StdoutLine: {'line': b'[ 13%] Built target posePub\n'}
+[0.094180] (knapp_amr) StdoutLine: {'line': b'[ 16%] Built target knapp_amr__cpp\n'}
+[0.099029] (knapp_amr) StdoutLine: {'line': b'[ 16%] Built target ament_cmake_python_copy_knapp_amr\n'}
+[0.099201] (-) TimerEvent: {}
+[0.121047] (knapp_amr) StdoutLine: {'line': b'[ 24%] Built target knapp_amr__rosidl_typesupport_c\n'}
+[0.123163] (knapp_amr) StdoutLine: {'line': b'[ 35%] Built target knapp_amr__rosidl_typesupport_introspection_c\n'}
+[0.124364] (knapp_amr) StdoutLine: {'line': b'[ 40%] Built target knapp_amr__rosidl_typesupport_fastrtps_c\n'}
+[0.131281] (knapp_amr) StdoutLine: {'line': b'[ 48%] Built target knapp_amr__rosidl_typesupport_introspection_cpp\n'}
+[0.150841] (knapp_amr) StdoutLine: {'line': b'[ 56%] Built target knapp_amr__rosidl_typesupport_cpp\n'}
+[0.152218] (knapp_amr) StdoutLine: {'line': b'[ 64%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp\n'}
+[0.164205] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target optimizer\x1b[0m\n'}
+[0.179854] (knapp_amr) StdoutLine: {'line': b'[ 67%] Built target knapp_amr\n'}
+[0.180045] (knapp_amr) StdoutLine: {'line': b'[ 70%] Built target orderPub\n'}
+[0.189601] (knapp_amr) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o\x1b[0m\n'}
+[0.199296] (-) TimerEvent: {}
+[0.203939] (knapp_amr) StdoutLine: {'line': b'[ 75%] Built target knapp_amr__py\n'}
+[0.226969] (knapp_amr) StdoutLine: {'line': b'[ 81%] Built target knapp_amr__rosidl_generator_py\n'}
+[0.249491] (knapp_amr) StdoutLine: {'line': b'[ 86%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.252581] (knapp_amr) StdoutLine: {'line': b'[ 91%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext\n'}
+[0.271727] (knapp_amr) StdoutLine: {'line': b'[ 97%] Built target knapp_amr__rosidl_typesupport_c__pyext\n'}
+[0.299430] (-) TimerEvent: {}
+[0.399850] (knapp_amr) StdoutLine: {'line': b'running egg_info\n'}
+[0.400022] (-) TimerEvent: {}
+[0.400115] (knapp_amr) StdoutLine: {'line': b'writing knapp_amr.egg-info/PKG-INFO\n'}
+[0.400197] (knapp_amr) StdoutLine: {'line': b'writing dependency_links to knapp_amr.egg-info/dependency_links.txt\n'}
+[0.400266] (knapp_amr) StdoutLine: {'line': b'writing top-level names to knapp_amr.egg-info/top_level.txt\n'}
+[0.402376] (knapp_amr) StdoutLine: {'line': b"reading manifest file 'knapp_amr.egg-info/SOURCES.txt'\n"}
+[0.403255] (knapp_amr) StdoutLine: {'line': b"writing manifest file 'knapp_amr.egg-info/SOURCES.txt'\n"}
+[0.436813] (knapp_amr) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_knapp_amr_egg\n'}
+[0.500171] (-) TimerEvent: {}
+[0.600498] (-) TimerEvent: {}
+[0.700828] (-) TimerEvent: {}
+[0.801085] (-) TimerEvent: {}
+[0.901337] (-) TimerEvent: {}
+[1.001619] (-) TimerEvent: {}
+[1.101877] (-) TimerEvent: {}
+[1.202151] (-) TimerEvent: {}
+[1.302444] (-) TimerEvent: {}
+[1.402775] (-) TimerEvent: {}
+[1.503082] (-) TimerEvent: {}
+[1.603363] (-) TimerEvent: {}
+[1.703690] (-) TimerEvent: {}
+[1.803950] (-) TimerEvent: {}
+[1.904209] (-) TimerEvent: {}
+[2.004514] (-) TimerEvent: {}
+[2.104819] (-) TimerEvent: {}
+[2.205145] (-) TimerEvent: {}
+[2.305457] (-) TimerEvent: {}
+[2.405765] (-) TimerEvent: {}
+[2.506080] (-) TimerEvent: {}
+[2.606372] (-) TimerEvent: {}
+[2.706676] (-) TimerEvent: {}
+[2.807026] (-) TimerEvent: {}
+[2.907364] (-) TimerEvent: {}
+[3.007712] (-) TimerEvent: {}
+[3.010715] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid OrderOptimizer::order_callback(const Order&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.011086] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:70:95:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kto_string(const _description_type&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.011205] (knapp_amr) StderrLine: {'line': b'   70 | on order "+std::to_string(msg.order_id)+ " ("+\x1b[01;31m\x1b[Kstd::to_string(msg.description)\x1b[m\x1b[K+")";\n'}
+[3.011557] (knapp_amr) StderrLine: {'line': b'      |                                               \x1b[01;31m\x1b[K~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.011629] (knapp_amr) StderrLine: {'line': b'\n'}
+[3.011695] (knapp_amr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node_interfaces/node_parameters_interface.hpp:28\x1b[m\x1b[K,\n'}
+[3.011763] (knapp_amr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/node.hpp:54\x1b[m\x1b[K,\n'}
+[3.011827] (knapp_amr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors/single_threaded_executor.hpp:28\x1b[m\x1b[K,\n'}
+[3.011891] (knapp_amr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:22\x1b[m\x1b[K,\n'}
+[3.011954] (knapp_amr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155\x1b[m\x1b[K,\n'}
+[3.012018] (knapp_amr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:13\x1b[m\x1b[K:\n'}
+[3.012081] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::to_string(const rclcpp::Parameter&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.012146] (knapp_amr) StderrLine: {'line': b'  289 | \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(const rclcpp::Parameter & param);\n'}
+[3.012209] (knapp_amr) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.012271] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:289:37:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst rclcpp::Parameter&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.012339] (knapp_amr) StderrLine: {'line': b'  289 | to_string(\x1b[01;36m\x1b[Kconst rclcpp::Parameter & param\x1b[m\x1b[K);\n'}
+[3.012412] (knapp_amr) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.012481] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:1:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::to_string(const std::vector<rclcpp::Parameter>&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.012545] (knapp_amr) StderrLine: {'line': b'  294 | \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(const std::vector<rclcpp::Parameter> & parameters);\n'}
+[3.012658] (knapp_amr) StderrLine: {'line': b'      | \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.012723] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/rclcpp/rclcpp/parameter.hpp:294:50:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kconst std::vector<rclcpp::Parameter>&\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.012797] (knapp_amr) StderrLine: {'line': b'  294 | to_string(\x1b[01;36m\x1b[Kconst std::vector<rclcpp::Parameter> & parameters\x1b[m\x1b[K);\n'}
+[3.012861] (knapp_amr) StderrLine: {'line': b'      |           \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~\x1b[m\x1b[K\n'}
+[3.012923] (knapp_amr) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/string:55\x1b[m\x1b[K,\n'}
+[3.012992] (knapp_amr) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:4\x1b[m\x1b[K:\n'}
+[3.013059] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6660:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.013123] (knapp_amr) StderrLine: {'line': b' 6660 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(int __val)\n'}
+[3.013186] (knapp_amr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.013247] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6660:17:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kint\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.013313] (knapp_amr) StderrLine: {'line': b' 6660 |   to_string(\x1b[01;36m\x1b[Kint __val\x1b[m\x1b[K)\n'}
+[3.013375] (knapp_amr) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.013437] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6671:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.013501] (knapp_amr) StderrLine: {'line': b' 6671 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned __val)\n'}
+[3.013563] (knapp_amr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.013624] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6671:22:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kunsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.013689] (knapp_amr) StderrLine: {'line': b' 6671 |   to_string(\x1b[01;36m\x1b[Kunsigned __val\x1b[m\x1b[K)\n'}
+[3.013751] (knapp_amr) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.013813] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6679:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.013882] (knapp_amr) StderrLine: {'line': b' 6679 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long __val)\n'}
+[3.013943] (knapp_amr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.014005] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6679:18:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.014070] (knapp_amr) StderrLine: {'line': b' 6679 |   to_string(\x1b[01;36m\x1b[Klong __val\x1b[m\x1b[K)\n'}
+[3.014133] (knapp_amr) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.014200] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6690:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.014263] (knapp_amr) StderrLine: {'line': b' 6690 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long __val)\n'}
+[3.014353] (knapp_amr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.014417] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6690:27:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.014486] (knapp_amr) StderrLine: {'line': b' 6690 |   to_string(\x1b[01;36m\x1b[Kunsigned long __val\x1b[m\x1b[K)\n'}
+[3.014548] (knapp_amr) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.014609] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6698:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.014672] (knapp_amr) StderrLine: {'line': b' 6698 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long long __val)\n'}
+[3.014734] (knapp_amr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.014795] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6698:23:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong long int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.014862] (knapp_amr) StderrLine: {'line': b' 6698 |   to_string(\x1b[01;36m\x1b[Klong long __val\x1b[m\x1b[K)\n'}
+[3.014929] (knapp_amr) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.014991] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6710:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long long unsigned int)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.015053] (knapp_amr) StderrLine: {'line': b' 6710 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(unsigned long long __val)\n'}
+[3.015115] (knapp_amr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.015176] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6710:32:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong long unsigned int\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.015241] (knapp_amr) StderrLine: {'line': b' 6710 |   to_string(\x1b[01;36m\x1b[Kunsigned long long __val\x1b[m\x1b[K)\n'}
+[3.015302] (knapp_amr) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.015364] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6721:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(float)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.015431] (knapp_amr) StderrLine: {'line': b' 6721 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(float __val)\n'}
+[3.015492] (knapp_amr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.015553] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6721:19:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kfloat\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.015626] (knapp_amr) StderrLine: {'line': b' 6721 |   to_string(\x1b[01;36m\x1b[Kfloat __val\x1b[m\x1b[K)\n'}
+[3.015689] (knapp_amr) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.015750] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6730:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.015812] (knapp_amr) StderrLine: {'line': b' 6730 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(double __val)\n'}
+[3.015876] (knapp_amr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.015937] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6730:20:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Kdouble\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.016001] (knapp_amr) StderrLine: {'line': b' 6730 |   to_string(\x1b[01;36m\x1b[Kdouble __val\x1b[m\x1b[K)\n'}
+[3.016063] (knapp_amr) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.016124] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6739:3:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Kstd::string std::__cxx11::to_string(long double)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.016186] (knapp_amr) StderrLine: {'line': b' 6739 |   \x1b[01;36m\x1b[Kto_string\x1b[m\x1b[K(long double __val)\n'}
+[3.016247] (knapp_amr) StderrLine: {'line': b'      |   \x1b[01;36m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[3.016308] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/basic_string.h:6739:25:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  no known conversion for argument 1 from \xe2\x80\x98\x1b[01m\x1b[Kconst _description_type\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kconst std::__cxx11::basic_string<char>\x1b[m\x1b[K\xe2\x80\x99} to \xe2\x80\x98\x1b[01m\x1b[Klong double\x1b[m\x1b[K\xe2\x80\x99\n'}
+[3.016377] (knapp_amr) StderrLine: {'line': b' 6739 |   to_string(\x1b[01;36m\x1b[Klong double __val\x1b[m\x1b[K)\n'}
+[3.016453] (knapp_amr) StderrLine: {'line': b'      |             \x1b[01;36m\x1b[K~~~~~~~~~~~~^~~~~\x1b[m\x1b[K\n'}
+[3.107837] (-) TimerEvent: {}
+[3.208127] (-) TimerEvent: {}
+[3.308502] (-) TimerEvent: {}
+[3.408844] (-) TimerEvent: {}
+[3.509220] (-) TimerEvent: {}
+[3.609541] (-) TimerEvent: {}
+[3.709833] (-) TimerEvent: {}
+[3.810160] (-) TimerEvent: {}
+[3.910481] (-) TimerEvent: {}
+[4.010795] (-) TimerEvent: {}
+[4.111111] (-) TimerEvent: {}
+[4.211413] (-) TimerEvent: {}
+[4.311738] (-) TimerEvent: {}
+[4.412040] (-) TimerEvent: {}
+[4.512346] (-) TimerEvent: {}
+[4.612639] (-) TimerEvent: {}
+[4.712957] (-) TimerEvent: {}
+[4.813239] (-) TimerEvent: {}
+[4.913558] (-) TimerEvent: {}
+[5.013895] (-) TimerEvent: {}
+[5.114235] (-) TimerEvent: {}
+[5.214571] (-) TimerEvent: {}
+[5.314907] (-) TimerEvent: {}
+[5.415261] (-) TimerEvent: {}
+[5.515643] (-) TimerEvent: {}
+[5.615946] (-) TimerEvent: {}
+[5.716255] (-) TimerEvent: {}
+[5.816530] (-) TimerEvent: {}
+[5.916868] (-) TimerEvent: {}
+[6.017151] (-) TimerEvent: {}
+[6.117514] (-) TimerEvent: {}
+[6.217885] (-) TimerEvent: {}
+[6.318174] (-) TimerEvent: {}
+[6.418505] (-) TimerEvent: {}
+[6.518816] (-) TimerEvent: {}
+[6.521451] (knapp_amr) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/optimizer.dir/build.make:76: CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o] Error 1\n'}
+[6.523910] (knapp_amr) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/optimizer.dir/all] Error 2\n'}
+[6.524325] (knapp_amr) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.524800] (knapp_amr) CommandEnded: {'returncode': 2}
+[6.619270] (-) TimerEvent: {}
+[6.666940] (knapp_amr) JobEnded: {'identifier': 'knapp_amr', 'rc': 2}
+[6.677458] (-) EventReactorShutdown: {}

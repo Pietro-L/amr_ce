@@ -1,0 +1,9 @@
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::order_callback(const Order&)[m[K’:
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:70:58:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char*[m[K’ and ‘[01m[Kconst char [3][m[K’ to binary ‘[01m[Koperator+[m[K’
+   70 |                 msgstr = [32m[K"Working on order "+msg.order_id[m[K[01;31m[K+[m[K [34m[K" ("[m[K+msg.description+")";
+      |                          [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K[01;31m[K^[m[K [34m[K~~~~[m[K
+      |                                             [32m[K|[m[K              [34m[K|[m[K
+      |                                             [32m[Kconst char*[m[K    [34m[Kconst char [3][m[K
+gmake[2]: *** [CMakeFiles/optimizer.dir/build.make:76: CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/optimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

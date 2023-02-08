@@ -1,0 +1,28 @@
+[0.015s] Invoking command in '/home/pietro/knapp_ros/build/knapp_amr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pietro/knapp_ros/build/knapp_amr -- -j4 -l4
+[0.039s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.189s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.216s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.219s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.226s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.239s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.257s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.385s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[0.438s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.440s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.567s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.716s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.959s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[1.253s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.370s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.393s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[1.416s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[1.416s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[1.416s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[1.429s] [31mCMake Error at CMakeLists.txt:30 (target_link_librarie):
+[1.429s]   Unknown CMake command "target_link_librarie".
+[1.430s] 
+[1.430s] [0m
+[1.430s] -- Configuring incomplete, errors occurred!
+[1.430s] See also "/home/pietro/knapp_ros/build/knapp_amr/CMakeFiles/CMakeOutput.log".
+[1.437s] gmake: *** [Makefile:870: cmake_check_build_system] Error 1
+[1.439s] Invoked command in '/home/pietro/knapp_ros/build/knapp_amr' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pietro/knapp_ros/build/knapp_amr -- -j4 -l4

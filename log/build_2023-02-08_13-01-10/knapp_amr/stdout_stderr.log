@@ -1,0 +1,40 @@
+[ 10%] Built target knapp_amr__rosidl_generator_c
+[ 10%] Built target knapp_amr__cpp
+[ 10%] Built target ament_cmake_python_copy_knapp_amr
+[ 16%] Built target posePub
+[ 24%] Built target knapp_amr__rosidl_typesupport_fastrtps_c
+[ 32%] Built target knapp_amr__rosidl_typesupport_c
+[ 40%] Built target knapp_amr__rosidl_typesupport_introspection_c
+[ 48%] Built target knapp_amr__rosidl_typesupport_introspection_cpp
+[ 56%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp
+[ 64%] Built target knapp_amr__rosidl_typesupport_cpp
+[35m[1mConsolidate compiler generated dependencies of target optimizer[0m
+[35m[1mConsolidate compiler generated dependencies of target orderPub[0m
+[ 67%] Built target knapp_amr
+[ 70%] Built target optimizer
+[ 72%] [32mBuilding CXX object CMakeFiles/orderPub.dir/src/orderPub.cpp.o[0m
+[ 75%] Built target knapp_amr__py
+[ 81%] Built target knapp_amr__rosidl_generator_py
+[ 86%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target knapp_amr__rosidl_typesupport_c__pyext
+running egg_info
+writing knapp_amr.egg-info/PKG-INFO
+writing dependency_links to knapp_amr.egg-info/dependency_links.txt
+writing top-level names to knapp_amr.egg-info/top_level.txt
+reading manifest file 'knapp_amr.egg-info/SOURCES.txt'
+writing manifest file 'knapp_amr.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_knapp_amr_egg
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/orderPub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/orderPub.cpp:64:61:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[Kif[m[K’
+   64 |         message.description=std::string("order n# "+1000001)
+      |                                                             [01;31m[K^[m[K
+      |                                                             [32m[K;[m[K
+   65 |                 [32m[Kif[m[K (send){
+      |                 [32m[K~~[m[K                                           
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/orderPub.cpp:55:14:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksend[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   55 |         bool [01;35m[Ksend[m[K=true;
+      |              [01;35m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/orderPub.dir/build.make:76: CMakeFiles/orderPub.dir/src/orderPub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/orderPub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

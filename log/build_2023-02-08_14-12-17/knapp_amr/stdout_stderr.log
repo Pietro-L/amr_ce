@@ -1,0 +1,36 @@
+[  2%] Built target knapp_amr__cpp
+[  8%] Built target posePub
+[ 10%] Built target ament_cmake_python_copy_knapp_amr
+[ 16%] Built target knapp_amr__rosidl_generator_c
+[ 24%] Built target knapp_amr__rosidl_typesupport_cpp
+[ 32%] Built target knapp_amr__rosidl_typesupport_fastrtps_c
+[ 40%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target knapp_amr__rosidl_typesupport_introspection_cpp
+[35m[1mConsolidate compiler generated dependencies of target optimizer[0m
+[ 56%] Built target knapp_amr__rosidl_typesupport_introspection_c
+[ 64%] Built target knapp_amr__rosidl_typesupport_c
+[ 67%] [32mBuilding CXX object CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o[0m
+[ 72%] Built target orderPub
+[ 72%] Built target knapp_amr
+[ 75%] Built target knapp_amr__py
+[ 81%] Built target knapp_amr__rosidl_generator_py
+[ 86%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target knapp_amr__rosidl_typesupport_c__pyext
+running egg_info
+writing knapp_amr.egg-info/PKG-INFO
+writing dependency_links to knapp_amr.egg-info/dependency_links.txt
+writing top-level names to knapp_amr.egg-info/top_level.txt
+reading manifest file 'knapp_amr.egg-info/SOURCES.txt'
+writing manifest file 'knapp_amr.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_knapp_amr_egg
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::order_callback(const Order&)[m[K’:
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:55:29:[m[K [01;31m[Kerror: [m[Kredeclaration of ‘[01m[Kstd::string msgstr[m[K’
+   55 |                 std::string [01;31m[Kmsgstr[m[K = "products size: " + std::to_string(products.size());
+      |                             [01;31m[K^~~~~~[m[K
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:43:29:[m[K [01;36m[Knote: [m[K‘[01m[Kstd::string msgstr[m[K’ previously declared here
+   43 |                 std::string [01;36m[Kmsgstr[m[K = "obtained order id: " + std::to_string(msg.order_id);
+      |                             [01;36m[K^~~~~~[m[K
+gmake[2]: *** [CMakeFiles/optimizer.dir/build.make:76: CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/optimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

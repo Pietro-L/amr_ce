@@ -1,0 +1,174 @@
+[0.000000] (-) TimerEvent: {}
+[0.000193] (knapp_amr) JobQueued: {'identifier': 'knapp_amr', 'dependencies': OrderedDict()}
+[0.001487] (knapp_amr) JobStarted: {'identifier': 'knapp_amr'}
+[0.011609] (knapp_amr) JobProgress: {'identifier': 'knapp_amr', 'progress': 'cmake'}
+[0.013380] (knapp_amr) JobProgress: {'identifier': 'knapp_amr', 'progress': 'build'}
+[0.013488] (knapp_amr) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pietro/knapp_ros/build/knapp_amr', '--', '-j4', '-l4'], 'cwd': '/home/pietro/knapp_ros/build/knapp_amr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pietro'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pietro'), ('OLDPWD', '/home/pietro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('SYSTEMD_EXEC_PID', '1834'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pietro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pietro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Pietro-linux:@/tmp/.ICE-unix/1662,unix/Pietro-linux:/tmp/.ICE-unix/1662'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/be59f276_2dce_4f09_8197_49d3b42102d8'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.G1J5Z1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.98'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pietro/knapp_ros/build/knapp_amr'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.089675] (knapp_amr) StdoutLine: {'line': b'[  0%] Built target ament_cmake_python_copy_knapp_amr\n'}
+[0.094740] (knapp_amr) StdoutLine: {'line': b'[  8%] Built target knapp_amr__rosidl_generator_c\n'}
+[0.098775] (knapp_amr) StdoutLine: {'line': b'[ 10%] Built target knapp_amr__cpp\n'}
+[0.099631] (-) TimerEvent: {}
+[0.100149] (knapp_amr) StdoutLine: {'line': b'[ 16%] Built target posePub\n'}
+[0.130973] (knapp_amr) StdoutLine: {'line': b'[ 27%] Built target knapp_amr__rosidl_typesupport_c\n'}
+[0.131316] (knapp_amr) StdoutLine: {'line': b'[ 32%] Built target knapp_amr__rosidl_typesupport_fastrtps_c\n'}
+[0.138722] (knapp_amr) StdoutLine: {'line': b'[ 40%] Built target knapp_amr__rosidl_typesupport_introspection_c\n'}
+[0.173491] (knapp_amr) StdoutLine: {'line': b'[ 48%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp\n'}
+[0.178590] (knapp_amr) StdoutLine: {'line': b'[ 59%] Built target knapp_amr__rosidl_typesupport_cpp\n'}
+[0.179795] (knapp_amr) StdoutLine: {'line': b'[ 64%] Built target knapp_amr__rosidl_typesupport_introspection_cpp\n'}
+[0.194232] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target optimizer\x1b[0m\n'}
+[0.199830] (-) TimerEvent: {}
+[0.220418] (knapp_amr) StdoutLine: {'line': b'[ 64%] Built target knapp_amr\n'}
+[0.230806] (knapp_amr) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o\x1b[0m\n'}
+[0.231791] (knapp_amr) StdoutLine: {'line': b'[ 72%] Built target orderPub\n'}
+[0.250939] (knapp_amr) StdoutLine: {'line': b'[ 75%] Built target knapp_amr__py\n'}
+[0.273639] (knapp_amr) StdoutLine: {'line': b'[ 81%] Built target knapp_amr__rosidl_generator_py\n'}
+[0.299978] (-) TimerEvent: {}
+[0.318932] (knapp_amr) StdoutLine: {'line': b'[ 86%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext\n'}
+[0.335937] (knapp_amr) StdoutLine: {'line': b'[ 91%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext\n'}
+[0.372986] (knapp_amr) StdoutLine: {'line': b'[ 97%] Built target knapp_amr__rosidl_typesupport_c__pyext\n'}
+[0.400068] (-) TimerEvent: {}
+[0.483463] (knapp_amr) StdoutLine: {'line': b'running egg_info\n'}
+[0.483636] (knapp_amr) StdoutLine: {'line': b'writing knapp_amr.egg-info/PKG-INFO\n'}
+[0.483725] (knapp_amr) StdoutLine: {'line': b'writing dependency_links to knapp_amr.egg-info/dependency_links.txt\n'}
+[0.483797] (knapp_amr) StdoutLine: {'line': b'writing top-level names to knapp_amr.egg-info/top_level.txt\n'}
+[0.488252] (knapp_amr) StdoutLine: {'line': b"reading manifest file 'knapp_amr.egg-info/SOURCES.txt'\n"}
+[0.489330] (knapp_amr) StdoutLine: {'line': b"writing manifest file 'knapp_amr.egg-info/SOURCES.txt'\n"}
+[0.501153] (-) TimerEvent: {}
+[0.527408] (knapp_amr) StdoutLine: {'line': b'[ 97%] Built target ament_cmake_python_build_knapp_amr_egg\n'}
+[0.601245] (-) TimerEvent: {}
+[0.701628] (-) TimerEvent: {}
+[0.801939] (-) TimerEvent: {}
+[0.902191] (-) TimerEvent: {}
+[1.004360] (-) TimerEvent: {}
+[1.104631] (-) TimerEvent: {}
+[1.204898] (-) TimerEvent: {}
+[1.305207] (-) TimerEvent: {}
+[1.405508] (-) TimerEvent: {}
+[1.505841] (-) TimerEvent: {}
+[1.606183] (-) TimerEvent: {}
+[1.706460] (-) TimerEvent: {}
+[1.806730] (-) TimerEvent: {}
+[1.907028] (-) TimerEvent: {}
+[2.007356] (-) TimerEvent: {}
+[2.107676] (-) TimerEvent: {}
+[2.208003] (-) TimerEvent: {}
+[2.308327] (-) TimerEvent: {}
+[2.408652] (-) TimerEvent: {}
+[2.508996] (-) TimerEvent: {}
+[2.609262] (-) TimerEvent: {}
+[2.709556] (-) TimerEvent: {}
+[2.809866] (-) TimerEvent: {}
+[2.910199] (-) TimerEvent: {}
+[3.010503] (-) TimerEvent: {}
+[3.110825] (-) TimerEvent: {}
+[3.211155] (-) TimerEvent: {}
+[3.311458] (-) TimerEvent: {}
+[3.411796] (-) TimerEvent: {}
+[3.512127] (-) TimerEvent: {}
+[3.612428] (-) TimerEvent: {}
+[3.712747] (-) TimerEvent: {}
+[3.813013] (-) TimerEvent: {}
+[3.913286] (-) TimerEvent: {}
+[4.013592] (-) TimerEvent: {}
+[4.113877] (-) TimerEvent: {}
+[4.214163] (-) TimerEvent: {}
+[4.314440] (-) TimerEvent: {}
+[4.414725] (-) TimerEvent: {}
+[4.515091] (-) TimerEvent: {}
+[4.615430] (-) TimerEvent: {}
+[4.715780] (-) TimerEvent: {}
+[4.816144] (-) TimerEvent: {}
+[4.916447] (-) TimerEvent: {}
+[5.016751] (-) TimerEvent: {}
+[5.117061] (-) TimerEvent: {}
+[5.217400] (-) TimerEvent: {}
+[5.317712] (-) TimerEvent: {}
+[5.418020] (-) TimerEvent: {}
+[5.518344] (-) TimerEvent: {}
+[5.618639] (-) TimerEvent: {}
+[5.718924] (-) TimerEvent: {}
+[5.819231] (-) TimerEvent: {}
+[5.919543] (-) TimerEvent: {}
+[6.019874] (-) TimerEvent: {}
+[6.120196] (-) TimerEvent: {}
+[6.220467] (-) TimerEvent: {}
+[6.320786] (-) TimerEvent: {}
+[6.421158] (-) TimerEvent: {}
+[6.521452] (-) TimerEvent: {}
+[6.621784] (-) TimerEvent: {}
+[6.722114] (-) TimerEvent: {}
+[6.822406] (-) TimerEvent: {}
+[6.922743] (-) TimerEvent: {}
+[7.023078] (-) TimerEvent: {}
+[7.123379] (-) TimerEvent: {}
+[7.223644] (-) TimerEvent: {}
+[7.323938] (-) TimerEvent: {}
+[7.424323] (-) TimerEvent: {}
+[7.524608] (-) TimerEvent: {}
+[7.624896] (-) TimerEvent: {}
+[7.725159] (-) TimerEvent: {}
+[7.825477] (-) TimerEvent: {}
+[7.925781] (-) TimerEvent: {}
+[8.026057] (-) TimerEvent: {}
+[8.126344] (-) TimerEvent: {}
+[8.226653] (-) TimerEvent: {}
+[8.326964] (-) TimerEvent: {}
+[8.427291] (-) TimerEvent: {}
+[8.527604] (-) TimerEvent: {}
+[8.627930] (-) TimerEvent: {}
+[8.728229] (-) TimerEvent: {}
+[8.828518] (-) TimerEvent: {}
+[8.928826] (-) TimerEvent: {}
+[9.029128] (-) TimerEvent: {}
+[9.129442] (-) TimerEvent: {}
+[9.229776] (-) TimerEvent: {}
+[9.330109] (-) TimerEvent: {}
+[9.430801] (-) TimerEvent: {}
+[9.531101] (-) TimerEvent: {}
+[9.631413] (-) TimerEvent: {}
+[9.731770] (-) TimerEvent: {}
+[9.832045] (-) TimerEvent: {}
+[9.932352] (-) TimerEvent: {}
+[10.032632] (-) TimerEvent: {}
+[10.132941] (-) TimerEvent: {}
+[10.233239] (-) TimerEvent: {}
+[10.333554] (-) TimerEvent: {}
+[10.433880] (-) TimerEvent: {}
+[10.534207] (-) TimerEvent: {}
+[10.634548] (-) TimerEvent: {}
+[10.734875] (-) TimerEvent: {}
+[10.835235] (-) TimerEvent: {}
+[10.935617] (-) TimerEvent: {}
+[11.035909] (-) TimerEvent: {}
+[11.136216] (-) TimerEvent: {}
+[11.236544] (-) TimerEvent: {}
+[11.336850] (-) TimerEvent: {}
+[11.437178] (-) TimerEvent: {}
+[11.537513] (-) TimerEvent: {}
+[11.637806] (-) TimerEvent: {}
+[11.738093] (-) TimerEvent: {}
+[11.838436] (-) TimerEvent: {}
+[11.938758] (-) TimerEvent: {}
+[12.039050] (-) TimerEvent: {}
+[12.139358] (-) TimerEvent: {}
+[12.239672] (-) TimerEvent: {}
+[12.339991] (-) TimerEvent: {}
+[12.440320] (-) TimerEvent: {}
+[12.540632] (-) TimerEvent: {}
+[12.640939] (-) TimerEvent: {}
+[12.741184] (-) TimerEvent: {}
+[12.841428] (-) TimerEvent: {}
+[12.941709] (-) TimerEvent: {}
+[13.041967] (-) TimerEvent: {}
+[13.067939] (knapp_amr) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/optimizer.dir/build.make:76: CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o] Interrupt\n'}
+[13.070107] (knapp_amr) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/optimizer.dir/all] Interrupt\n'}
+[13.070283] (knapp_amr) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Interrupt\n'}
+[13.142077] (-) TimerEvent: {}
+[13.242350] (-) TimerEvent: {}
+[13.342727] (-) TimerEvent: {}
+[13.443351] (-) TimerEvent: {}
+[13.543954] (-) TimerEvent: {}
+[13.594162] (knapp_amr) CommandEnded: {'returncode': -2}
+[13.644016] (-) TimerEvent: {}
+[13.690213] (knapp_amr) JobEnded: {'identifier': 'knapp_amr', 'rc': 'SIGINT'}
+[13.691138] (-) EventReactorShutdown: {}

@@ -1,0 +1,157 @@
+[0.000000] (-) TimerEvent: {}
+[0.000226] (knapp_amr) JobQueued: {'identifier': 'knapp_amr', 'dependencies': OrderedDict()}
+[0.000291] (knapp_amr) JobStarted: {'identifier': 'knapp_amr'}
+[0.011061] (knapp_amr) JobProgress: {'identifier': 'knapp_amr', 'progress': 'cmake'}
+[0.012740] (knapp_amr) JobProgress: {'identifier': 'knapp_amr', 'progress': 'build'}
+[0.012819] (knapp_amr) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/pietro/knapp_ros/build/knapp_amr', '--', '-j4', '-l4'], 'cwd': '/home/pietro/knapp_ros/build/knapp_amr', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'pietro'), ('LC_TIME', 'en_GB.UTF-8'), ('XDG_SESSION_TYPE', 'wayland'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/pietro'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'en_GB.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1970'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ecaa74a096182d0ce1e060a963da6617'), ('COLORTERM', 'truecolor'), ('_colcon_cd_root', '/opt/ros/humble/'), ('IM_CONFIG_PHASE', '1'), ('WAYLAND_DISPLAY', 'wayland-0'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'pietro'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'pietro'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/Pietro-linux:@/tmp/.ICE-unix/1970,unix/Pietro-linux:/tmp/.ICE-unix/1970'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'en_GB.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/5c0bbcc5_fc20_4740_bded_b408da74f194'), ('GNOME_SETUP_DISPLAY', ':1'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'en_GB.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/.mutter-Xwaylandauth.T2NQZ1'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.136'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '10'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'en_GB.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'en_GB.UTF-8'), ('LC_IDENTIFICATION', 'en_GB.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/pietro/knapp_ros/build/knapp_amr'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ecaa74a096182d0ce1e060a963da6617'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'en_GB.UTF-8'), ('LC_PAPER', 'en_GB.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.068717] (knapp_amr) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099197] (-) TimerEvent: {}
+[0.199535] (-) TimerEvent: {}
+[0.254127] (knapp_amr) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.299733] (-) TimerEvent: {}
+[0.400317] (-) TimerEvent: {}
+[0.482913] (knapp_amr) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.487157] (knapp_amr) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.495295] (knapp_amr) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.500402] (-) TimerEvent: {}
+[0.507708] (knapp_amr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.527193] (knapp_amr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.600551] (-) TimerEvent: {}
+[0.700949] (-) TimerEvent: {}
+[0.724427] (knapp_amr) StdoutLine: {'line': b'-- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.799248] (knapp_amr) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.801010] (-) TimerEvent: {}
+[0.801815] (knapp_amr) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.901164] (-) TimerEvent: {}
+[0.903764] (knapp_amr) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.929624] (knapp_amr) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.977979] (knapp_amr) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.987165] (knapp_amr) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.001293] (-) TimerEvent: {}
+[1.059880] (knapp_amr) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.060309] (knapp_amr) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.101415] (-) TimerEvent: {}
+[1.133924] (knapp_amr) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.135173] (knapp_amr) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.201529] (-) TimerEvent: {}
+[1.282496] (knapp_amr) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[1.301656] (-) TimerEvent: {}
+[1.402067] (-) TimerEvent: {}
+[1.502474] (-) TimerEvent: {}
+[1.602767] (-) TimerEvent: {}
+[1.679295] (knapp_amr) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[1.702951] (-) TimerEvent: {}
+[1.803478] (-) TimerEvent: {}
+[1.903814] (-) TimerEvent: {}
+[2.004176] (-) TimerEvent: {}
+[2.104576] (-) TimerEvent: {}
+[2.205169] (-) TimerEvent: {}
+[2.222443] (knapp_amr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[2.305301] (-) TimerEvent: {}
+[2.356348] (knapp_amr) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[2.405457] (-) TimerEvent: {}
+[2.445732] (knapp_amr) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[2.505608] (-) TimerEvent: {}
+[2.576468] (knapp_amr) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[2.577012] (knapp_amr) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[2.577346] (knapp_amr) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[2.605790] (-) TimerEvent: {}
+[2.616079] (knapp_amr) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.705989] (-) TimerEvent: {}
+[2.778862] (knapp_amr) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.781012] (knapp_amr) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[2.781452] (knapp_amr) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.783739] (knapp_amr) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.788301] (knapp_amr) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.788740] (knapp_amr) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.790048] (knapp_amr) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.798916] (knapp_amr) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.806119] (-) TimerEvent: {}
+[2.852036] (knapp_amr) StdoutLine: {'line': b'-- Generating done\n'}
+[2.857784] (knapp_amr) StdoutLine: {'line': b'-- Build files have been written to: /home/pietro/knapp_ros/build/knapp_amr\n'}
+[2.884342] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_generator_c\x1b[0m\n'}
+[2.894941] (knapp_amr) StdoutLine: {'line': b'[  3%] \x1b[32mBuilding CXX object CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o\x1b[0m\n'}
+[2.895810] (knapp_amr) StdoutLine: {'line': b'[ 12%] Built target knapp_amr__rosidl_generator_c\n'}
+[2.902781] (knapp_amr) StdoutLine: {'line': b'[ 15%] Built target knapp_amr__cpp\n'}
+[2.904242] (knapp_amr) StdoutLine: {'line': b'[ 15%] Built target ament_cmake_python_copy_knapp_amr\n'}
+[2.905986] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[2.906126] (-) TimerEvent: {}
+[2.913945] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[2.914518] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_c\x1b[0m\n'}
+[2.925879] (knapp_amr) StdoutLine: {'line': b'[ 27%] Built target knapp_amr__rosidl_typesupport_introspection_c\n'}
+[2.926172] (knapp_amr) StdoutLine: {'line': b'[ 33%] Built target knapp_amr__rosidl_typesupport_c\n'}
+[2.930808] (knapp_amr) StdoutLine: {'line': b'[ 42%] Built target knapp_amr__rosidl_typesupport_fastrtps_c\n'}
+[2.937017] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.942870] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.952442] (knapp_amr) StdoutLine: {'line': b'[ 51%] Built target knapp_amr__rosidl_typesupport_introspection_cpp\n'}
+[2.956536] (knapp_amr) StdoutLine: {'line': b'[ 60%] Built target knapp_amr__rosidl_typesupport_cpp\n'}
+[2.963603] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[2.977795] (knapp_amr) StdoutLine: {'line': b'[ 69%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp\n'}
+[2.998614] (knapp_amr) StdoutLine: {'line': b'[ 69%] Built target knapp_amr\n'}
+[3.006395] (-) TimerEvent: {}
+[3.019576] (knapp_amr) StdoutLine: {'line': b'[ 72%] Built target knapp_amr__py\n'}
+[3.030016] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_generator_py\x1b[0m\n'}
+[3.044064] (knapp_amr) StdoutLine: {'line': b'[ 78%] Built target knapp_amr__rosidl_generator_py\n'}
+[3.054599] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[3.067994] (knapp_amr) StdoutLine: {'line': b'[ 84%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext\n'}
+[3.069270] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[3.078658] (knapp_amr) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target knapp_amr__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[3.092362] (knapp_amr) StdoutLine: {'line': b'[ 90%] Built target knapp_amr__rosidl_typesupport_c__pyext\n'}
+[3.103103] (knapp_amr) StdoutLine: {'line': b'[ 96%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext\n'}
+[3.106515] (-) TimerEvent: {}
+[3.191324] (knapp_amr) StdoutLine: {'line': b'running egg_info\n'}
+[3.192138] (knapp_amr) StdoutLine: {'line': b'writing knapp_amr.egg-info/PKG-INFO\n'}
+[3.192399] (knapp_amr) StdoutLine: {'line': b'writing dependency_links to knapp_amr.egg-info/dependency_links.txt\n'}
+[3.192570] (knapp_amr) StdoutLine: {'line': b'writing top-level names to knapp_amr.egg-info/top_level.txt\n'}
+[3.195005] (knapp_amr) StdoutLine: {'line': b"reading manifest file 'knapp_amr.egg-info/SOURCES.txt'\n"}
+[3.195702] (knapp_amr) StdoutLine: {'line': b"writing manifest file 'knapp_amr.egg-info/SOURCES.txt'\n"}
+[3.206620] (-) TimerEvent: {}
+[3.274053] (knapp_amr) StdoutLine: {'line': b'[ 96%] Built target ament_cmake_python_build_knapp_amr_egg\n'}
+[3.306773] (-) TimerEvent: {}
+[3.407143] (-) TimerEvent: {}
+[3.507478] (-) TimerEvent: {}
+[3.607824] (-) TimerEvent: {}
+[3.708182] (-) TimerEvent: {}
+[3.808482] (-) TimerEvent: {}
+[3.908829] (-) TimerEvent: {}
+[4.009128] (-) TimerEvent: {}
+[4.109491] (-) TimerEvent: {}
+[4.209789] (-) TimerEvent: {}
+[4.310100] (-) TimerEvent: {}
+[4.410427] (-) TimerEvent: {}
+[4.510754] (-) TimerEvent: {}
+[4.611045] (-) TimerEvent: {}
+[4.711373] (-) TimerEvent: {}
+[4.811709] (-) TimerEvent: {}
+[4.912039] (-) TimerEvent: {}
+[5.012340] (-) TimerEvent: {}
+[5.112703] (-) TimerEvent: {}
+[5.213013] (-) TimerEvent: {}
+[5.313307] (-) TimerEvent: {}
+[5.413644] (-) TimerEvent: {}
+[5.513960] (-) TimerEvent: {}
+[5.609554] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:36:24:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kturtlesim\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[5.609818] (knapp_amr) StderrLine: {'line': b'   36 |   rclcpp::Subscription<\x1b[01;31m\x1b[Kturtlesim\x1b[m\x1b[K::msg::Pose\n'}
+[5.609944] (knapp_amr) StderrLine: {'line': b'      |                        \x1b[01;31m\x1b[K^~~~~~~~~\x1b[m\x1b[K\n'}
+[5.610088] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:36:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[5.610236] (knapp_amr) StderrLine: {'line': b'   36 |   rclcpp::Subscription<turtlesim::msg::\x1b[01;31m\x1b[KPose\x1b[m\x1b[K\n'}
+[5.610303] (knapp_amr) StderrLine: {'line': b'      |                                        \x1b[01;31m\x1b[K^~~~\x1b[m\x1b[K\n'}
+[5.610370] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:36:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 3 is invalid\n'}
+[5.610436] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:36:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 4 is invalid\n'}
+[5.610508] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:36:40:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 5 is invalid\n'}
+[5.610573] (knapp_amr) StderrLine: {'line': b'\x1b[01m\x1b[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:38:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kexpected unqualified-id before \xe2\x80\x98\x1b[01m\x1b[K}\x1b[m\x1b[K\xe2\x80\x99 token\n'}
+[5.610639] (knapp_amr) StderrLine: {'line': b'   38 | \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[5.610706] (knapp_amr) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[5.614058] (-) TimerEvent: {}
+[5.714368] (-) TimerEvent: {}
+[5.814746] (-) TimerEvent: {}
+[5.915121] (-) TimerEvent: {}
+[6.015481] (-) TimerEvent: {}
+[6.074467] (knapp_amr) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/optimizer.dir/build.make:76: CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o] Error 1\n'}
+[6.074711] (knapp_amr) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:182: CMakeFiles/optimizer.dir/all] Error 2\n'}
+[6.074991] (knapp_amr) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.111925] (knapp_amr) CommandEnded: {'returncode': 2}
+[6.115614] (-) TimerEvent: {}
+[6.215866] (-) TimerEvent: {}
+[6.263341] (knapp_amr) JobEnded: {'identifier': 'knapp_amr', 'rc': 2}
+[6.264340] (-) EventReactorShutdown: {}

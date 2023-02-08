@@ -1,0 +1,4 @@
+source;share/knapp_amr/local_setup.bash
+source;share/knapp_amr/local_setup.dsv
+source;share/knapp_amr/local_setup.sh
+source;share/knapp_amr/local_setup.zsh

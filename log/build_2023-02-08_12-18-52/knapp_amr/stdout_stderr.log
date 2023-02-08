@@ -1,0 +1,35 @@
+[35m[1mConsolidate compiler generated dependencies of target posePub[0m
+[  8%] Built target knapp_amr__rosidl_generator_c
+[ 11%] Built target knapp_amr__cpp
+[ 14%] [32mBuilding CXX object CMakeFiles/posePub.dir/src/posePub.cpp.o[0m
+[ 14%] Built target ament_cmake_python_copy_knapp_amr
+[ 22%] Built target knapp_amr__rosidl_typesupport_fastrtps_c
+[ 34%] Built target knapp_amr__rosidl_typesupport_c
+[ 40%] Built target knapp_amr__rosidl_typesupport_introspection_c
+[ 48%] Built target knapp_amr__rosidl_typesupport_introspection_cpp
+[ 57%] Built target knapp_amr__rosidl_typesupport_cpp
+[ 65%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp
+[ 65%] Built target knapp_amr
+[ 68%] Built target knapp_amr__py
+[ 74%] Built target optimizer
+[ 80%] Built target knapp_amr__rosidl_generator_py
+[ 85%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext
+[ 91%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext
+[ 97%] Built target knapp_amr__rosidl_typesupport_c__pyext
+running egg_info
+writing knapp_amr.egg-info/PKG-INFO
+writing dependency_links to knapp_amr.egg-info/dependency_links.txt
+writing top-level names to knapp_amr.egg-info/top_level.txt
+reading manifest file 'knapp_amr.egg-info/SOURCES.txt'
+writing manifest file 'knapp_amr.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_knapp_amr_egg
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/posePub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/posePub.cpp:50:60:[m[K [01;31m[Kerror: [m[K‘[01m[Krclcpp::ReliabilityPolicy::Reliable[m[K’ cannot be used as a function
+   50 |         rclcpp::QoS qos([01;31m[Krclcpp::ReliabilityPolicy::Reliable()[m[K);
+      |                         [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~[m[K
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/posePub.cpp:50:21:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kqos[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   50 |         rclcpp::QoS [01;35m[Kqos[m[K(rclcpp::ReliabilityPolicy::Reliable());
+      |                     [01;35m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/posePub.dir/build.make:76: CMakeFiles/posePub.dir/src/posePub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:622: CMakeFiles/posePub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

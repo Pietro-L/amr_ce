@@ -1,0 +1,261 @@
+[0.014s] Invoking command in '/home/pietro/knapp_ros/build/knapp_amr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pietro/knapp_ros/src/knapp_amr -DCMAKE_INSTALL_PREFIX=/home/pietro/knapp_ros/install/knapp_amr
+[0.768s] -- The C compiler identification is GNU 11.3.0
+[1.115s] -- The CXX compiler identification is GNU 11.3.0
+[1.141s] -- Detecting C compiler ABI info
+[1.335s] -- Detecting C compiler ABI info - done
+[1.343s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.344s] -- Detecting C compile features
+[1.368s] -- Detecting C compile features - done
+[1.406s] -- Detecting CXX compiler ABI info
+[1.673s] -- Detecting CXX compiler ABI info - done
+[1.681s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.682s] -- Detecting CXX compile features
+[1.682s] -- Detecting CXX compile features - done
+[1.707s] -- Found ament_cmake: 1.3.3 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.918s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.6") found components: Interpreter 
+[2.039s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.082s] -- Found rosidl_generator_c: 3.1.4 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.111s] -- Found rosidl_adapter: 3.1.4 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.120s] -- Found rosidl_generator_cpp: 3.1.4 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.135s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.156s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.315s] -- Found rclcpp: 16.0.3 (/opt/ros/humble/share/rclcpp/cmake)
+[2.397s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.399s] -- Found rmw_fastrtps_cpp: 6.2.2 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.563s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.592s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.645s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.665s] -- Looking for pthread.h
+[2.855s] -- Looking for pthread.h - found
+[2.856s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.005s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.012s] -- Found Threads: TRUE  
+[3.171s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[3.180s] -- Checking for module 'yaml-cpp'
+[3.192s] --   Found yaml-cpp, version 0.7.0
+[3.491s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.830s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.955s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.979s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.6", minimum required is "3.6") 
+[3.981s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[4.007s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.6", minimum required is "3.5") 
+[4.007s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[4.007s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[4.007s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[4.029s] -- Found PythonExtra: .so  
+[4.065s] -- Found ament_lint_auto: 0.12.5 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.082s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.083s] -- Configured cppcheck include dirs: /home/pietro/knapp_ros/src/knapp_amr/include
+[4.083s] -- Configured cppcheck exclude dirs and/or files: 
+[4.084s] -- Added test 'lint_cmake' to check CMake code style
+[4.085s] -- Added test 'uncrustify' to check C / C++ code style
+[4.085s] -- Configured uncrustify additional arguments: 
+[4.086s] -- Added test 'xmllint' to check XML markup files
+[4.089s] -- Configuring done
+[4.136s] -- Generating done
+[4.139s] -- Build files have been written to: /home/pietro/knapp_ros/build/knapp_amr
+[4.153s] Invoked command in '/home/pietro/knapp_ros/build/knapp_amr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/pietro/knapp_ros/src/knapp_amr -DCMAKE_INSTALL_PREFIX=/home/pietro/knapp_ros/install/knapp_amr
+[4.153s] Invoking command in '/home/pietro/knapp_ros/build/knapp_amr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pietro/knapp_ros/build/knapp_amr -- -j4 -l4
+[4.195s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.205s] [  8%] [32mBuilding CXX object CMakeFiles/posePub.dir/src/posePub.cpp.o[0m
+[4.206s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.223s] [  8%] Built target ament_cmake_python_copy_knapp_amr
+[4.533s] running egg_info
+[4.534s] creating knapp_amr.egg-info
+[4.534s] writing knapp_amr.egg-info/PKG-INFO
+[4.534s] writing dependency_links to knapp_amr.egg-info/dependency_links.txt
+[4.534s] writing top-level names to knapp_amr.egg-info/top_level.txt
+[4.534s] writing manifest file 'knapp_amr.egg-info/SOURCES.txt'
+[4.537s] reading manifest file 'knapp_amr.egg-info/SOURCES.txt'
+[4.540s] writing manifest file 'knapp_amr.egg-info/SOURCES.txt'
+[4.571s] [  8%] Built target knapp_amr__cpp
+[4.575s] [  8%] Built target ament_cmake_python_build_knapp_amr_egg
+[4.583s] [ 10%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.586s] [ 13%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.664s] [ 16%] [32mBuilding C object CMakeFiles/knapp_amr__rosidl_generator_c.dir/rosidl_generator_c/knapp_amr/msg/detail/order__functions.c.o[0m
+[4.883s] [ 18%] [32mBuilding CXX object CMakeFiles/knapp_amr__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/knapp_amr/msg/order__type_support.cpp.o[0m
+[4.891s] [ 21%] [32m[1mLinking C shared library libknapp_amr__rosidl_generator_c.so[0m
+[4.932s] [ 24%] [32mBuilding CXX object CMakeFiles/knapp_amr__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/knapp_amr/msg/detail/dds_fastrtps/order__type_support.cpp.o[0m
+[4.987s] [ 24%] Built target knapp_amr__rosidl_generator_c
+[5.020s] [ 27%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[5.288s] [ 29%] [32m[1mLinking CXX shared library libknapp_amr__rosidl_typesupport_cpp.so[0m
+[5.336s] [ 29%] Built target knapp_amr__rosidl_typesupport_cpp
+[5.348s] [ 32%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[5.423s] [ 35%] [32mBuilding CXX object CMakeFiles/knapp_amr__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/knapp_amr/msg/detail/order__type_support.cpp.o[0m
+[5.520s] [ 37%] [32m[1mLinking CXX shared library libknapp_amr__rosidl_typesupport_fastrtps_cpp.so[0m
+[5.662s] [ 37%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp
+[5.708s] [ 40%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[5.725s] [ 43%] [32mBuilding CXX object CMakeFiles/knapp_amr__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/knapp_amr/msg/detail/order__type_support_c.cpp.o[0m
+[6.037s] [ 45%] [32m[1mLinking CXX shared library libknapp_amr__rosidl_typesupport_introspection_cpp.so[0m
+[6.093s] [ 48%] [32mBuilding C object CMakeFiles/knapp_amr__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/knapp_amr/msg/detail/order__type_support.c.o[0m
+[6.173s] [ 51%] [32m[1mLinking C shared library libknapp_amr__rosidl_typesupport_introspection_c.so[0m
+[6.184s] [ 51%] Built target knapp_amr__rosidl_typesupport_introspection_cpp
+[6.215s] [ 54%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[6.224s] [ 54%] Built target knapp_amr__rosidl_typesupport_introspection_c
+[6.249s] [ 56%] [32mBuilding CXX object CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o[0m
+[6.296s] [ 59%] [32m[1mLinking CXX shared library libknapp_amr__rosidl_typesupport_fastrtps_c.so[0m
+[6.389s] [ 59%] Built target knapp_amr__rosidl_typesupport_fastrtps_c
+[6.413s] [ 62%] [32mBuilding CXX object CMakeFiles/orderPub.dir/src/orderPub.cpp.o[0m
+[6.519s] [ 64%] [32mBuilding CXX object CMakeFiles/knapp_amr__rosidl_typesupport_c.dir/rosidl_typesupport_c/knapp_amr/msg/order__type_support.cpp.o[0m
+[6.569s] [ 67%] [32m[1mLinking CXX shared library libknapp_amr__rosidl_typesupport_c.so[0m
+[6.628s] [ 67%] Built target knapp_amr__rosidl_typesupport_c
+[6.658s] [ 67%] Built target knapp_amr
+[6.680s] [ 70%] [34m[1mGenerating Python code for ROS interfaces[0m
+[7.202s] [ 70%] Built target knapp_amr__py
+[7.226s] [ 72%] [32mBuilding C object CMakeFiles/knapp_amr__rosidl_generator_py.dir/rosidl_generator_py/knapp_amr/msg/_order_s.c.o[0m
+[7.832s] [ 75%] [32m[1mLinking C shared library rosidl_generator_py/knapp_amr/libknapp_amr__rosidl_generator_py.so[0m
+[7.883s] [ 75%] Built target knapp_amr__rosidl_generator_py
+[7.905s] [ 78%] [32mBuilding C object CMakeFiles/knapp_amr__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/knapp_amr/_knapp_amr_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[8.032s] [ 81%] [32m[1mLinking C shared library rosidl_generator_py/knapp_amr/knapp_amr_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.073s] [ 81%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext
+[8.097s] [ 83%] [32mBuilding C object CMakeFiles/knapp_amr__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/knapp_amr/_knapp_amr_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[8.216s] [ 86%] [32m[1mLinking C shared library rosidl_generator_py/knapp_amr/knapp_amr_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.255s] [ 86%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext
+[8.278s] [ 89%] [32mBuilding C object CMakeFiles/knapp_amr__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/knapp_amr/_knapp_amr_s.ep.rosidl_typesupport_c.c.o[0m
+[8.427s] [ 91%] [32m[1mLinking C shared library rosidl_generator_py/knapp_amr/knapp_amr_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[8.477s] [ 91%] Built target knapp_amr__rosidl_typesupport_c__pyext
+[10.045s] [ 94%] [32m[1mLinking CXX executable posePub[0m
+[10.303s] [ 94%] Built target posePub
+[11.640s] [ 97%] [32m[1mLinking CXX executable orderPub[0m
+[11.926s] [ 97%] Built target orderPub
+[19.309s] [100%] [32m[1mLinking CXX executable optimizer[0m
+[20.004s] [100%] Built target optimizer
+[20.041s] Invoked command in '/home/pietro/knapp_ros/build/knapp_amr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pietro/knapp_ros/build/knapp_amr -- -j4 -l4
+[20.139s] Invoking command in '/home/pietro/knapp_ros/build/knapp_amr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pietro/knapp_ros/build/knapp_amr
+[20.150s] -- Install configuration: ""
+[20.150s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/ament_index/resource_index/rosidl_interfaces/knapp_amr
+[20.150s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr
+[20.150s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg
+[20.150s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/order.h
+[20.150s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/rosidl_generator_c__visibility_control.h
+[20.150s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail
+[20.150s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__functions.c
+[20.151s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__type_support.h
+[20.151s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__functions.h
+[20.151s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__struct.h
+[20.151s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/library_path.sh
+[20.151s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/library_path.dsv
+[20.151s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_generator_c.so
+[20.152s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_generator_c.so" to ""
+[20.152s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr
+[20.152s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg
+[20.152s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[20.152s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail
+[20.153s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__rosidl_typesupport_fastrtps_c.h
+[20.153s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_fastrtps_c.so
+[20.153s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_fastrtps_c.so" to ""
+[20.153s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr
+[20.153s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg
+[20.153s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/order.hpp
+[20.153s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail
+[20.154s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__builder.hpp
+[20.155s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__struct.hpp
+[20.155s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__traits.hpp
+[20.155s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr
+[20.155s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg
+[20.155s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[20.155s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail
+[20.155s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/dds_fastrtps
+[20.156s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__rosidl_typesupport_fastrtps_cpp.hpp
+[20.156s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_fastrtps_cpp.so
+[20.156s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_fastrtps_cpp.so" to ""
+[20.156s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr
+[20.158s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg
+[20.158s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[20.158s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail
+[20.158s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__type_support.c
+[20.158s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__rosidl_typesupport_introspection_c.h
+[20.158s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_introspection_c.so
+[20.158s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_introspection_c.so" to ""
+[20.158s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_c.so
+[20.158s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_c.so" to ""
+[20.158s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr
+[20.158s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg
+[20.158s] -- Up-to-date: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail
+[20.158s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__type_support.cpp
+[20.158s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/include/knapp_amr/knapp_amr/msg/detail/order__rosidl_typesupport_introspection_cpp.hpp
+[20.159s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_introspection_cpp.so
+[20.160s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_introspection_cpp.so" to ""
+[20.160s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_cpp.so
+[20.160s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_typesupport_cpp.so" to ""
+[20.160s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/pythonpath.sh
+[20.160s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/pythonpath.dsv
+[20.160s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr-0.0.0-py3.10.egg-info
+[20.160s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr-0.0.0-py3.10.egg-info/top_level.txt
+[20.160s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr-0.0.0-py3.10.egg-info/dependency_links.txt
+[20.160s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr-0.0.0-py3.10.egg-info/SOURCES.txt
+[20.160s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr-0.0.0-py3.10.egg-info/PKG-INFO
+[20.160s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr
+[20.160s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/_knapp_amr_s.ep.rosidl_typesupport_introspection_c.c
+[20.161s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/libknapp_amr__rosidl_generator_py.so
+[20.161s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/_knapp_amr_s.ep.rosidl_typesupport_fastrtps_c.c
+[20.161s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/_knapp_amr_s.ep.rosidl_typesupport_c.c
+[20.166s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.166s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg
+[20.166s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg/_order_s.c
+[20.166s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg/_order.py
+[20.166s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg/__init__.py
+[20.166s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/__init__.py
+[20.166s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.166s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.197s] Listing '/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr'...
+[20.197s] Compiling '/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/__init__.py'...
+[20.197s] Listing '/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg'...
+[20.197s] Compiling '/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg/__init__.py'...
+[20.197s] Compiling '/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/msg/_order.py'...
+[20.204s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[20.204s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.204s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[20.205s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.205s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[20.206s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/local/lib/python3.10/dist-packages/knapp_amr/knapp_amr_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[20.206s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_generator_py.so
+[20.206s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/libknapp_amr__rosidl_generator_py.so" to ""
+[20.206s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/msg/Order.idl
+[20.206s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/msg/Order.msg
+[20.207s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/knapp_amr/optimizer
+[20.214s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/knapp_amr/optimizer" to ""
+[20.215s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/knapp_amr/posePub
+[20.217s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/knapp_amr/posePub" to ""
+[20.218s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/lib/knapp_amr/orderPub
+[20.220s] -- Set runtime path of "/home/pietro/knapp_ros/install/knapp_amr/lib/knapp_amr/orderPub" to ""
+[20.220s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/ament_index/resource_index/package_run_dependencies/knapp_amr
+[20.220s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/ament_index/resource_index/parent_prefix_path/knapp_amr
+[20.221s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/ament_prefix_path.sh
+[20.221s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/ament_prefix_path.dsv
+[20.221s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/path.sh
+[20.221s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/environment/path.dsv
+[20.222s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/local_setup.bash
+[20.222s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/local_setup.sh
+[20.222s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/local_setup.zsh
+[20.223s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/local_setup.dsv
+[20.223s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/package.dsv
+[20.223s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/ament_index/resource_index/packages/knapp_amr
+[20.224s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_generator_cExport.cmake
+[20.224s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_generator_cExport-noconfig.cmake
+[20.224s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_typesupport_fastrtps_cExport.cmake
+[20.225s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[20.225s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_generator_cppExport.cmake
+[20.225s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_typesupport_fastrtps_cppExport.cmake
+[20.226s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[20.226s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_introspection_cExport.cmake
+[20.226s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[20.227s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_cExport.cmake
+[20.227s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_cExport-noconfig.cmake
+[20.227s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_introspection_cppExport.cmake
+[20.227s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[20.228s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_cppExport.cmake
+[20.228s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amr__rosidl_typesupport_cppExport-noconfig.cmake
+[20.228s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_generator_pyExport.cmake
+[20.229s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/export_knapp_amr__rosidl_generator_pyExport-noconfig.cmake
+[20.229s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/rosidl_cmake-extras.cmake
+[20.229s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/ament_cmake_export_include_directories-extras.cmake
+[20.230s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/ament_cmake_export_libraries-extras.cmake
+[20.230s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/ament_cmake_export_targets-extras.cmake
+[20.230s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[20.231s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/ament_cmake_export_dependencies-extras.cmake
+[20.231s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[20.231s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amrConfig.cmake
+[20.232s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/cmake/knapp_amrConfig-version.cmake
+[20.232s] -- Installing: /home/pietro/knapp_ros/install/knapp_amr/share/knapp_amr/package.xml
+[20.235s] Invoked command in '/home/pietro/knapp_ros/build/knapp_amr' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/pietro/knapp_ros/build/knapp_amr

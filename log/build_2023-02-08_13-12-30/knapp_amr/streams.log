@@ -1,0 +1,35 @@
+[0.014s] Invoking command in '/home/pietro/knapp_ros/build/knapp_amr': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pietro/knapp_ros/build/knapp_amr -- -j4 -l4
+[0.073s] [  0%] Built target ament_cmake_python_copy_knapp_amr
+[0.073s] [  2%] Built target knapp_amr__cpp
+[0.075s] [  8%] Built target posePub
+[0.080s] [ 16%] Built target knapp_amr__rosidl_generator_c
+[0.106s] [ 24%] Built target knapp_amr__rosidl_typesupport_introspection_cpp
+[0.115s] [ 32%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp
+[0.122s] [ 40%] Built target knapp_amr__rosidl_typesupport_cpp
+[0.133s] [ 48%] Built target knapp_amr__rosidl_typesupport_fastrtps_c
+[0.146s] [ 56%] Built target knapp_amr__rosidl_typesupport_introspection_c
+[0.159s] [35m[1mConsolidate compiler generated dependencies of target orderPub[0m
+[0.160s] [ 64%] Built target knapp_amr__rosidl_typesupport_c
+[0.167s] [ 70%] Built target optimizer
+[0.179s] [ 70%] Built target knapp_amr
+[0.183s] [ 72%] [32mBuilding CXX object CMakeFiles/orderPub.dir/src/orderPub.cpp.o[0m
+[0.200s] [ 75%] Built target knapp_amr__py
+[0.222s] [ 81%] Built target knapp_amr__rosidl_generator_py
+[0.245s] [ 86%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext
+[0.245s] [ 91%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext
+[0.268s] [ 97%] Built target knapp_amr__rosidl_typesupport_c__pyext
+[0.350s] running egg_info
+[0.350s] writing knapp_amr.egg-info/PKG-INFO
+[0.351s] writing dependency_links to knapp_amr.egg-info/dependency_links.txt
+[0.351s] writing top-level names to knapp_amr.egg-info/top_level.txt
+[0.352s] reading manifest file 'knapp_amr.egg-info/SOURCES.txt'
+[0.353s] writing manifest file 'knapp_amr.egg-info/SOURCES.txt'
+[0.384s] [ 97%] Built target ament_cmake_python_build_knapp_amr_egg
+[2.608s] [01m[K/home/pietro/knapp_ros/src/knapp_amr/src/orderPub.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.608s] [01m[K/home/pietro/knapp_ros/src/knapp_amr/src/orderPub.cpp:59:33:[m[K [01;31m[Kerror: [m[Kcast from ‘[01m[Kchar*[m[K’ to ‘[01m[Kint[m[K’ loses precision [[01;31m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-fpermissive-fpermissive]8;;[m[K]
+[2.608s]    59 |         (argv[1]!=NULL)?orderid=[01;31m[K(int)argv[1][m[K:orderid=1000001;
+[2.608s]       |                                 [01;31m[K^~~~~~~~~~~~[m[K
+[3.374s] gmake[2]: *** [CMakeFiles/orderPub.dir/build.make:76: CMakeFiles/orderPub.dir/src/orderPub.cpp.o] Error 1
+[3.374s] gmake[1]: *** [CMakeFiles/Makefile2:650: CMakeFiles/orderPub.dir/all] Error 2
+[3.375s] gmake: *** [Makefile:146: all] Error 2
+[3.377s] Invoked command in '/home/pietro/knapp_ros/build/knapp_amr' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/pietro/knapp_ros/build/knapp_amr -- -j4 -l4

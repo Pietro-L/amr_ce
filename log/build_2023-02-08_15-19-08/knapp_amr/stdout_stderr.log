@@ -1,0 +1,35 @@
+[  2%] Built target knapp_amr__cpp
+[ 10%] Built target knapp_amr__rosidl_generator_c
+[ 10%] Built target ament_cmake_python_copy_knapp_amr
+[ 16%] Built target posePub
+[ 24%] Built target knapp_amr__rosidl_typesupport_cpp
+[ 32%] Built target knapp_amr__rosidl_typesupport_introspection_cpp
+[ 40%] Built target knapp_amr__rosidl_typesupport_fastrtps_cpp
+[ 48%] Built target knapp_amr__rosidl_typesupport_introspection_c
+[ 56%] Built target knapp_amr__rosidl_typesupport_fastrtps_c
+[ 64%] Built target knapp_amr__rosidl_typesupport_c
+[35m[1mConsolidate compiler generated dependencies of target optimizer[0m
+[ 70%] Built target orderPub
+[ 72%] [32mBuilding CXX object CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o[0m
+[ 72%] Built target knapp_amr
+[ 75%] Built target knapp_amr__py
+[ 81%] Built target knapp_amr__rosidl_generator_py
+[ 89%] Built target knapp_amr__rosidl_typesupport_introspection_c__pyext
+[ 91%] Built target knapp_amr__rosidl_typesupport_fastrtps_c__pyext
+[ 97%] Built target knapp_amr__rosidl_typesupport_c__pyext
+running egg_info
+writing knapp_amr.egg-info/PKG-INFO
+writing dependency_links to knapp_amr.egg-info/dependency_links.txt
+writing top-level names to knapp_amr.egg-info/top_level.txt
+reading manifest file 'knapp_amr.egg-info/SOURCES.txt'
+writing manifest file 'knapp_amr.egg-info/SOURCES.txt'
+[ 97%] Built target ament_cmake_python_build_knapp_amr_egg
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:[m[K In member function ‘[01m[Kvoid OrderOptimizer::order_callback(const Order&)[m[K’:
+[01m[K/home/pietro/knapp_ros/src/knapp_amr/src/OrderOptimizer.cpp:70:58:[m[K [01;31m[Kerror: [m[Kinvalid operands of types ‘[01m[Kconst char*[m[K’ and ‘[01m[Kconst char [3][m[K’ to binary ‘[01m[Koperator+[m[K’
+   70 |                 msgstr = [32m[K"Working on order "+msg.order_id[m[K[01;31m[K+[m[K [34m[K" ("[m[K+msg.description+")";
+      |                          [32m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K[01;31m[K^[m[K [34m[K~~~~[m[K
+      |                                             [32m[K|[m[K              [34m[K|[m[K
+      |                                             [32m[Kconst char*[m[K    [34m[Kconst char [3][m[K
+gmake[2]: *** [CMakeFiles/optimizer.dir/build.make:76: CMakeFiles/optimizer.dir/src/OrderOptimizer.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:597: CMakeFiles/optimizer.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

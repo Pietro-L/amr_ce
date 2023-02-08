@@ -1,0 +1,3 @@
+Ros Package solving AMR Candidate Evaluation. 
+  Takes two types of yaml databases and parses them obtaining all parts of a particular order. 
+  Calculates the shortest path by solving TSP and publishes order of parts as well as positions as Marker[]
