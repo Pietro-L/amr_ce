@@ -77,7 +77,7 @@ private:
 		RCLCPP_INFO(this->get_logger(), msgstr.c_str());
 		int counter=1;
 		std::ostringstream ss;
-		for(unsigned int i = 0; i < uniqueCoords.size();++i){
+		for(unsigned int i:path){
 			for(auto j:partList){
 				if(j.location.x==uniqueCoords[i].x && j.location.y==uniqueCoords[i].y){
 					ss<<counter<< ". Fetching part '"<<j.partName<<"' for product '"<<j.product<< "' at x: "<<j.location.x<< ", y: "<<j.location.y;
