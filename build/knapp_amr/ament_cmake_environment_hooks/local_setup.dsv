@@ -1,4 +1,0 @@
-source;share/knapp_amr/environment/ament_prefix_path.sh
-source;share/knapp_amr/environment/library_path.sh
-source;share/knapp_amr/environment/path.sh
-source;share/knapp_amr/environment/pythonpath.sh
