@@ -1,4 +1,0 @@
-Invoking command in '/home/pietro/knapp_ros/build/knapp_amr': /usr/bin/cmake --build /home/pietro/knapp_ros/build/knapp_amr -- -j4 -l4
-Invoked command in '/home/pietro/knapp_ros/build/knapp_amr' returned '0': /usr/bin/cmake --build /home/pietro/knapp_ros/build/knapp_amr -- -j4 -l4
-Invoking command in '/home/pietro/knapp_ros/build/knapp_amr': /usr/bin/cmake --install /home/pietro/knapp_ros/build/knapp_amr
-Invoked command in '/home/pietro/knapp_ros/build/knapp_amr' returned '0': /usr/bin/cmake --install /home/pietro/knapp_ros/build/knapp_amr

@@ -1,5 +1,0 @@
-[31mCMake Error at CMakeLists.txt:30 (target_link_librarie):
-  Unknown CMake command "target_link_librarie".
-
-[0m
-gmake: *** [Makefile:870: cmake_check_build_system] Error 1
